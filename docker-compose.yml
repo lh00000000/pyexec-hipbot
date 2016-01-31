@@ -1,0 +1,5 @@
+web:
+  build: .
+  command: python pyexec_bot.py
+  volumes:
+    - .:/code
